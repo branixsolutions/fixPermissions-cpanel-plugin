@@ -34,8 +34,8 @@ $user = exec('whoami');
 <?php
 
 //Store the output of the executed command in an array
-
-exec('/usr/local/cpanel/base/frontend/paper_lantern/fix/./fixperms.sh -a $USER', $output, $status);
+// exec('/usr/local/cpanel/base/frontend/paper_lantern/fix/./fixperms.sh -a $USER', $output, $status);
+exec('/usr/local/cpanel/base/frontend/jupiter/fix/./fixperms.sh -a $USER', $output, $status);
 
 
 //Print all return values of the executed command as array
