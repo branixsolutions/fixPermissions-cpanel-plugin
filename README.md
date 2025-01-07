@@ -29,13 +29,15 @@ Fix permissions for each domain under a cpanel account
 
 ### Using another cpanel template?
 
+Default theme now is jupiter
+
 Change the path to the fixperms.sh in index.live.php on line 38:
-```/usr/local/cpanel/base/frontend/paper_lantern/fix/./fixperms.sh```
+```/usr/local/cpanel/base/frontend/jupiter/fix/./fixperms.sh```
 
 ### Run the script for all cpanel accounts?
 
 Use the -all flag:
-```/usr/local/cpanel/base/frontend/paper_lantern/fix/./fixperms.sh -all```
+```/usr/local/cpanel/base/frontend/jupiter/fix/./fixperms.sh -all```
 
 ----------------------
 
